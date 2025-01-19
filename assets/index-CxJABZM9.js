@@ -321,7 +321,7 @@ background-color: #f00;
     justify-content: center;
     align-items: center;
     z-index: 1000;
-`,N1=()=>z.jsx(E1,{}),T1=()=>{const{theme:r}=L.useContext(Wn);return z.jsxs(L1,{onClick:Rl,theme:r,children:[z.jsx(_l,{}),z.jsx(Pl,{}),z.jsx("img",{className:"pokemon-logo",src:"./images/pokeLogo.jpg",alt:"Logo do pokemon"}),z.jsxs("div",{className:"opcoes",children:[z.jsx(wr,{to:"/cards",children:z.jsx("div",{className:"cards",children:z.jsx("h1",{children:"Cards"})})}),z.jsx(wr,{to:"/pokedex",children:z.jsx("div",{className:"pokedex",children:z.jsx("h1",{children:"Pokédex"})})}),z.jsx(wr,{to:"/minigame",children:z.jsx("div",{className:"minigame",children:z.jsx("h1",{children:"Minigame"})})})]})]})},L1=Je.div`
+`,N1=()=>z.jsx(E1,{}),T1=()=>{const{theme:r}=L.useContext(Wn);return z.jsxs(L1,{onClick:Rl,theme:r,children:[z.jsx(_l,{}),z.jsx(Pl,{}),z.jsx("img",{className:"pokemon-logo",src:"./images/pokemon-logo.jpg",alt:"Logo do pokemon"}),z.jsxs("div",{className:"opcoes",children:[z.jsx(wr,{to:"/cards",children:z.jsx("div",{className:"cards",children:z.jsx("h1",{children:"Cards"})})}),z.jsx(wr,{to:"/pokedex",children:z.jsx("div",{className:"pokedex",children:z.jsx("h1",{children:"Pokédex"})})}),z.jsx(wr,{to:"/minigame",children:z.jsx("div",{className:"minigame",children:z.jsx("h1",{children:"Minigame"})})})]})]})},L1=Je.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
