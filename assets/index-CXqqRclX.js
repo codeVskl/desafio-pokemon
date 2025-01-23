@@ -307,7 +307,8 @@ transition: all 0.3s ease;
     justify-content: center;
     align-items: center;
     z-index: 1000;
-`,Rx=()=>ie.jsx(Cx,{}),Px=()=>{const{theme:n}=te.useContext(Nr);return ie.jsxs(Tx,{onClick:bs,theme:n,children:[ie.jsxs("div",{className:"image-fundo",children:[ie.jsx("img",{className:"charmander",src:"./images/Charmander.jpg",alt:"Charmander"}),ie.jsx("img",{className:"butterfly",src:"./images/Butterfly.jpg",alt:"Butterfly"}),ie.jsx("img",{src:"./images/pickAsh.jpg",alt:"imagem de apresentação, Ash e sua equipe"}),ie.jsx("img",{className:"squirtle",src:"./images/Squirtle.jpg",alt:"Squirtle"})]}),ie.jsxs("main",{className:"principal",children:[ie.jsxs("div",{className:"buttons",children:[ie.jsxs(io,{to:"/cards",children:[" ",ie.jsx(Fu,{secondClass:"cards",title:"Cards"})," "]}),ie.jsxs(io,{to:"/pokedex",children:[" ",ie.jsx(Fu,{secondClass:"pokedex",title:"Pokédex"})," "]}),ie.jsxs(io,{to:"/minigame",children:["  ",ie.jsx(Fu,{secondClass:"minigame",title:"Minigame"})," "]})]}),ie.jsxs("div",{className:"logo-container",children:[ie.jsx("img",{className:"pokemon-logo",src:"./images/pokemon-logo.jpg",alt:"Logo do pokemon"}),ie.jsx("p",{children:"Conheça seu pokémon!"}),ie.jsx("button",{className:"learn-more",children:"Learn More"})]})]})]})},Tx=Ft.div`
+`,Rx=()=>ie.jsx(Cx,{}),Px=()=>{const{theme:n}=te.useContext(Nr);return ie.jsxs(Tx,{onClick:bs,theme:n,children:[ie.jsxs("div",{className:"image-fundo",children:[ie.jsx("img",{className:"charmander",src:"./images/home-images/Charmander.jpg",alt:"Charmander"}),ie.jsx("img",{className:"butterfly",src:"./images/home-images/Butterfly.jpg",alt:"Butterfly"}),ie.jsx("img",{src:"./images/home-images/pickAsh.jpg",alt:"imagem de apresentação, Ash e sua equipe"}),ie.jsx("img",{className:"squirtle",src:"./images/home-images/Squirtle.jpg",alt:"Squirtle"})]}),ie.jsxs("main",{className:"principal",children:[ie.jsxs("div",{className:"buttons",children:[ie.jsxs(io,{to:"/cards",children:[" ",ie.jsx(Fu,{secondClass:"cards",title:"Cards"})," "]}),ie.jsxs(io,{to:"/pokedex",children:[" ",ie.jsx(Fu,{secondClass:"pokedex",title:"Pokédex"})," "]}),ie.jsxs(io,{to:"/minigame",children:["  ",ie.jsx(Fu,{secondClass:"minigame",title:"Minigame"})," "]})]}),ie.jsxs("div",{className:"logo-container",children:[ie.jsx("img",{className:"pokemon-logo",src:"./images/pokemon-logo.jpg",alt:"Logo do pokemon"}),ie.jsx("p",{children:"Conheça seu pokémon!"}),ie.jsx("button",{className:"learn-more",children:"Learn More"})]})]})]})},Tx=Ft.div`
+    font-family: 'Gowun Dodum', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -387,6 +388,7 @@ transition: all 0.3s ease;
     }
 
     .learn-more {
+        font-family: 'Gowun Dodum', sans-serif;
         font-size: 22px;
         outline: none;
         border: none;
@@ -694,7 +696,7 @@ border-radius: 50%;
 }
 
 body {
-font-family: "Gowun Dodum", sans-serif;
+font-family: "Lexend", sans-serif;
 }
 
 a {
